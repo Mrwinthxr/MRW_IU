@@ -6,11 +6,16 @@
 </head>
 
 <body>
-	<h1>Show pictures</h1>
+	<h1>Picture upload</h1>
+
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+</form>
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 	<script type="text/javascript" src="mrw_iu_js.js"></script>
 </body>
 
 </html>		
-
