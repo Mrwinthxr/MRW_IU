@@ -1,0 +1,31 @@
+/** META **/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/** Display site **/
+
+
+/** Upload site **/
+
+div#image_upload {
+	position: absolute;
+	width: 70%;
+	min-width: 400px;
+	margin:  50px 0 0-35%;
+	left: 50%;
+	text-align: center;
+}
+
+div#image_upload form.dropzone {
+	height: 100%;
+	border: 5px #86C8CC dashed;
+	font-size: 24px;
+}
+
+div#image_upload div#headline {
+
+}
